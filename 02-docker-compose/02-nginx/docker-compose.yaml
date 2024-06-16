@@ -1,0 +1,6 @@
+version: "3"
+services:
+  nginx_kursat:  
+    image: nginx
+    ports:
+      - "8080:80"
